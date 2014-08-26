@@ -1,0 +1,60 @@
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script>
+	var ip = window.location.hostname;
+	var socket = io.connect(ip);
+
+	//Lors de la connexion avec le serveur, ceci est executé
+	socket.on('connect', function(){
+		//On demande à l'utilisateur son pseudo afin de l'envoyer au serveur
+		socket.emit('adduser', prompt("Quel est votre pseudo?"));
+	});
+
+	//Lorsque le serveur envoie des données via 'updatechat', on rafrachit les données affichées à l'utilisateur.
+	socket.on('updatechat', function (username, data) {
+		$('#conversation').append('<b>'+ username + ':</b> ' + data + '<br>');
+	});
+
+	//Lorsque le serveur envoie un 'updateusers', on raffraichi la liste des utilisateurs affichée à l'utilisateur.
+	socket.on('updateusers', function(data) {
+		$('#users').empty();
+		$.each(data, function(key, value) {
+			$('#users').append('<div>' + key + '</div>');
+		});
+	});
+
+	//Lors du chargement de la page (jQuery de base)
+	$(function(){
+		//On fait un focus sur le champ de texte
+		$('#data').focus();
+		//On affiche l'IP du serveur
+		$('#ip').append('IP : ' + ip);
+		//Lorsque l'on clique sur Envoyer
+		$('#datasend').click( function() {
+			var message = $('#data').val();
+			$('#data').val('');
+			//On envoie la commande 'sendchat' avec comme contenu le message
+			socket.emit('sendchat', message);
+		});
+
+		//Lorsque l'utilisateur appuie sur Enter
+		$('#data').keypress(function(e) {
+			if(e.which == 13) {
+				$(this).blur();
+				$('#datasend').focus().click();
+				$('#data').focus();
+			}
+		});
+	});
+
+</script>
+<div style="float:left;width:100px;border-right:1px solid black;height:300px;padding:10px;overflow:scroll-y;">
+	<b>Utilisateurs</b>
+	<div id="users"></div>
+</div>
+<div style="float:left;width:300px;height:250px;overflow:scroll-y;padding:10px;">
+	<div id="conversation"></div>
+	<input id="data" style="width:200px;" />
+	<input type="button" id="datasend" value="Envoyer" />
+</div>
+<div id="ip" style="position:fixed; top:0; right:0;"></div>
