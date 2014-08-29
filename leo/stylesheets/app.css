@@ -1,0 +1,16 @@
+/*
+/	CSS BY: Erwan d'Orgeville - erwandorgeville.com
+/
+*/
+
+body{
+	background:url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/linedpaper.png) repeat;
+}
+
+.text-centered{
+	text-align:center;
+}
+
+.panel{
+	margin-top:10px;
+}

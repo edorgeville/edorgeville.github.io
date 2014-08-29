@@ -1,0 +1,24 @@
+erwandorgeville.com/rouge
+
+
+!-- Version Alpha 2.0
+	· Modifications majeures :
+		· + Nouveaux boss : 728 + Charest
+		· + Black Block (barre en haut)
+		· Instructions plus compréhensibles
+		· Améliorations majeures de performances
+		· + Possiblité de lancer le black bloc au clavier (Z)
+
+	· Modifications mineures :
+		· Corrections de bugs divers
+		· Animation des policiers
+		· Tests de collision plus exacts
+
+!-- Version alpha 1.2 boosted
+	· SSPVM spawn hors de la map
+	· Ajout de waves (genre)
+	· Corrections diverses.
+
+!-- Version alpha 1.0
+	· Première release publique.
+
