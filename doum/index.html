@@ -1,4 +1,5 @@
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta property="og:title" content="doum.webm">
     <meta property="og:type" content="video.other">
     <meta property="og:url" content="http://erwandorgeville.com/doum/">
@@ -38,7 +39,10 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <video src="doum.webm" autoplay loop></video>
+    <video id="video" autoplay loop preload controls poster="doum.png">
+        <source src="doum.webm" type="video/webm">
+        <source src="doum.mp4" type="video/mp4">
+    </video>
     <footer>
         <div id="fb-like">
             <div class="fb-like" data-href="https://erwandorgeville.com/doum/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
