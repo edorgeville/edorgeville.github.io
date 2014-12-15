@@ -215,3 +215,22 @@ hr{
 		}
 	}
 }
+
+.img-container{
+	position: relative;
+	&:hover{
+		.description{
+			opacity: 1;
+		}
+	}
+	.description{
+		position: absolute;
+		top:1px;
+		right:1px;
+		color:white;
+		opacity: 0.25;
+		transition: all 500ms;
+		padding: 5px 10px;
+		background-color: rgba(0,0,0,0.75);
+	}
+}
