@@ -14,7 +14,12 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>
+            <![CDATA[
+                <img src="{{ post.image.url }}" alt="{{ post.image.alt }}"/>
+                {{ post.content }}
+            ]]>
+        </description>
         <image>
             <url>{{ post.image.url | prepend: site.baseurl | prepend: site.url }}</url>
             <title>{{ post.image.alt }}</title>
