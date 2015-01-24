@@ -1,0 +1,251 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+
+@import "vendor/bootstrap.min";
+@import "vendor/bootstrap-theme.min";
+
+@import "inc/fonts";
+@import "inc/variables";
+
+*{
+    -webkit-font-smoothing: antialiased;
+}
+
+html{
+
+}
+
+body{
+    font-family: $font-family;
+    font-weight: 300;
+    color: $lightblack;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top:0px;
+    >a{
+        color: inherit;
+        &:hover{
+            color: inherit;
+        }
+    }
+}
+
+h1,h2{
+    font-family: $font-family-headings;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 1.25em;
+}
+
+h3{
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: $font-family;
+}
+
+
+h4{
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font-family;
+    margin-top:0px;
+}
+
+a{
+    text-decoration: none;
+    // border-bottom: 1px dotted #111;
+    //color: $lightwhite;
+    color: inherit;
+    &:hover{
+        //color: $lightwhite;
+        color: inherit;
+        text-decoration: underline;
+    }
+}
+
+p{
+    font-size: 1em;
+    font-weight: normal;
+    a{
+        border-bottom: 1px dotted rgba(81, 81, 81, 0.2);
+        &:hover, &:active{
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(81, 81, 81, 1);
+        }
+    }
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+.veryblack{
+    background-color: $veryblack;
+}
+
+section{
+    background-color: $white;
+    &:nth-child(2n){
+        background-color: $superblue;
+        color: $white;
+    }
+}
+
+section, footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: $black;
+    color: $white;
+}
+
+#top-bar{
+    background-color: $black;
+}
+
+#wow{
+    background-color: $veryblack;
+    background-image: url('../img/erwan.jpg');
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $white;
+    text-align: center;
+
+    padding-top: 25%;
+    padding-bottom: 20%;
+    .veryblack{
+        background-color: rgba(0, 0, 0, 0.8);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        h2{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.no-list{
+    padding-left: 0px;
+    &, > *{
+        list-style:none;
+    }
+    >li{
+        padding-top: 10px;
+    }
+}
+
+.projects-container{
+    >li{
+        padding-top: 30px;
+        &:first-of-type{
+            padding-top: 10px;
+        }
+        img{
+            margin-bottom: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+    }
+}
+
+hr{
+    width: 20%;
+    margin: 20px 0;
+    border-top-color: $lightwhite;
+}
+
+#history{
+    >ul{
+        padding-left:0px;
+        &, >*{
+            list-style: none;
+        }
+        >li{
+
+        }
+    }
+}
+
+#portfolio{
+    .img-responsive{
+        width: 100%;
+    }
+}
+
+
+
+
+#fb-like{
+    padding-top:10px;
+    height:0px;
+    overflow: hidden;
+    &.done{
+        overflow:initial;
+    }
+}
+
+.ready{
+    #fb-like{
+        height:35px;
+        animation: fb-like 2s;
+        -webkit-animation: fb-like 2s; /* Safari and Chrome */
+    }
+}
+
+
+@keyframes fb-like
+{
+    0% {height:0px;}
+    70% {height:0px;}
+    100% {height:35px;overflow: initial;}
+}
+
+@-webkit-keyframes fb-like
+{
+    0% {height:0px;}
+    70% {height:0px;}
+    100% {height:35px;overflow: initial;}
+}
+
+@media print{
+    #wow{
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: left;
+    }
+    h2{
+        span{
+            display:block;
+            font-size: 0;
+        }
+    }
+}
+
+.img-container{
+    position: relative;
+    &:hover{
+        .description{
+            opacity: 1;
+        }
+    }
+    .description{
+        position: absolute;
+        top:1px;
+        right:1px;
+        color:white;
+        opacity: 0.25;
+        transition: all 500ms;
+        padding: 5px 10px;
+        background-color: rgba(0,0,0,0.75);
+    }
+}

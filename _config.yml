@@ -1,0 +1,26 @@
+# Site settings
+name: Erwan d'Orgeville
+job: Développeur Web
+title: Erwan d'Orgeville - Développeur Web
+email: info@erwandorgeville.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://erwandorgeville.com" # the base hostname & protocol for your site
+username: &username th3m4ri0
+github_username: *username
+facebook_username: *username
+twitter_username: *username
+linkedin_username: *username
+freelancer_username: *username
+phone: "+1 514.371.7943"
+phone_number: "+15143717943"
+analytics_id: "UA-36343347-1"
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: :compressed

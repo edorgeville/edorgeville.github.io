@@ -1,0 +1,38 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Contact</h3>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h4>Courriel</h4>
+                <p><a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h4>Téléphone</h4>
+                <p><a href="tel:{{ site.phone_number }}">{{ site.phone }}</a></p>
+            </div>
+            <div class="col-md-3 col-sm-12 hidden-print">
+                <h4>Réseaux sociaux / Communautés</h4>
+                {% if site.github_username %}<p><a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a></p>{% endif %}
+                {% if site.facebook_username %}<p><a href="http://facebook.com/{{ site.facebook_username }}" target="_blank">Facebook</a></p>{% endif %}
+                {% if site.twitter_username %}<p><a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a></p>{% endif %}
+                {% if site.linkedin_username %}<p><a href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a></p>{% endif %}
+                {% if site.freelancer_username %}<p><a href="https://www.freelancer.com/u/{{ site.freelancer_username }}.html" target="_blank">Freelancer</a></p>{% endif %}
+            </div>
+        </div>
+        <div class="row hidden-print">
+            <div class="col-xs-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row hidden-print">
+            <div class="col-xs-12">
+                <h3>Crédits</h3>
+                <p><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a> & <a href="http://glyphicons.com" target="_blank">Glyphicons</a>, <a href="http://jquery.com" target="_blank">jQuery</a>, <a href="http://modernizr.com/">Modernizr</a>
+                <p>Nom de domaine par <a href="http://laradioradio.com/" target="_blank">iwantmyname</a>, DNS par <a href="http://cloudflare.com" target="_blank">Cloudflare</a> (gratuit), hébergement par <a href="https://pages.github.com/" target="_blank">Github Pages</a> (gratuit) et <a href="https://www.digitalocean.com/?refcode=1e6b9d65b1f8" target="_blank">Digital Ocean</a>, email par <a href="http://mail.zoho.com" target="_blank">Zoho Mail</a> (gratuit).</p>
+                <p>Crédits photo : <a href="http://alexandreclaude.com" target="_blank">Alexandre Claude</a> pour <a href="http://molotov.ca" target="_blank">Molotov communications alternatives</a></p></p>
+            </div>
+        </div>
+    </div>
+</footer>

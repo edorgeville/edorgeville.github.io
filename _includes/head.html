@@ -1,0 +1,43 @@
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="google-site-verification" content="68Iwrbj3RSCTiymTzvblOWVqkhYJXXW7wTDcQAKijk8" />
+
+    <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+    <link rel="shortcut icon" href="img/favicon.png?v2">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="js/vendor/modernizr.min.js"></script>
+
+    <script>var base = "";</script>
+
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:image" content="{{ "/img/og_image.png" | prepend: site.url }}">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '{{ site.analytics_id }}']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>

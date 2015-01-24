@@ -1,321 +1,92 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Erwan d'Orgeville - Développeur web</title>
+---
+layout: default
+---
 
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<section id="about" class="hidden-print">
+    <div class="container">
+        <h3>À propos</h3>
+        <p>Passionné par le web depuis l'âge de 10 ans, j'aime jouer avec les dernières nouveautés sur les Internets.</p>
+        <p>Je code et déploie des sites statiques / dynamiques / interactifs / applicatifs / innovateurs / etc. en HTML5 / CSS3 / JS / PHP / Ruby on Rails / NodeJS.</p>
+        <p class="hidden-print"><a href="#" class="print"><span class="glyphicon glyphicon-print"></span> Imprimer mon CV</a></p>
+    </div>
+</section>
 
-        <meta name="google-site-verification" content="68Iwrbj3RSCTiymTzvblOWVqkhYJXXW7wTDcQAKijk8" />
-
-        <link rel="stylesheet" href="/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/vendor/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/css/app.css">
-
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
-        <link rel="shortcut icon" href="img/favicon.png?v2">
-
-        <!--[if lt IE 9]>
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <script src="js/vendor/modernizr.min.js"></script>
-
-        <script>var base = "";</script>
-
-        <meta property="og:title" content="Erwan d'Orgeville - Développeur web">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="http://erwandorgeville.com/img/og_image.png">
-        <meta property="og:site_name" content="">
-        <meta property="og:description" content="">
-
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-36343347-1']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-    </head>
-    <body class="posts home">
-
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=146904188780284";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-    <header>
-        <div id="wow">
-            <div class="veryblack">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h1>Erwan d'Orgeville</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Développeur web<span> | </span><a href="mailto:info@erwandorgeville.com" target="_blank">info@erwandorgeville.com</a></h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div id="fb-like" class="hidden-print">
-                                <div class="fb-like" data-href="http://erwandorgeville.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="about" class="hidden-print">
-        <div class="container">
-            <h3>À propos</h3>
-            <p>Passionné par le web depuis l'âge de 10 ans, j'aime jouer avec les dernières nouveautés sur les Internets.</p>
-            <p>Je code et déploie des sites statiques / dynamiques / interactifs / applicatifs / innovateurs / etc. en HTML5 / CSS3 / JS / PHP / Ruby on Rails / NodeJS.</p>
-            <p class="hidden-print"><a href="#" class="print"><span class="glyphicon glyphicon-print"></span> Imprimer mon CV</a></p>
-        </div>
-    </section>
-
-    <section id="portfolio" class="hidden-print">
-        <div class="container">
-            <h3>Portfolio</h3>
-            <ul class="projects-container no-list">
-                <li>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="img-container">
-                                <div class="description">Crédit photo: Vincent Noël</div>
-                                <a href="//miuqam.github.io/anakronysm" target="_blank">
-                                    <img src="/content/anakronysm2.jpg" alt="Écosociété" class="img-responsive">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <h4>Anakronysm</h4>
-                            <p>« Recréant l’univers ludique des premiers dessins animés, Anakronysm vous propose un saut dans le temps, permettant à chaque utilisateur de devenir un projectionniste du début du 20e siècle en utilisant la technologie d’aujourd’hui. »</p>
-                            <p>Dans le cadre du cours d'<em>Image de synthèse et interactivité</em> à l'UQÀM, nous avons réalisé un instrument interactif audio-visuel. L'équipe fût consituée de Pier Oliver Bourgault, <a href="http://marcantoinebrodeur.com" target="_blank">Marc-Antoine Brodeur</a>, Alexandre D'Avignon, <a href="http://peterartvisuel.com/" target="_blank">Pierre-Luc Marrier</a> et moi-même.</p>
-                            <p>Le projet utilise une Leap Motion ainsi qu'une manivelle fabriquée à partir d'un encodeur de rotation. Le visuel a été codé en <a href="http://processing.org/" target="_blank">Processing</a> et l'audio réalisé avec <a href="https://cycling74.com/products/max/" target="_blank">Max MSP</a>. La communication entre l'encodeur de rotation et le programme Processing se fait via un <a href="http://arduino.cc/" target="_blank">Arduino</a> et son port série. Puis les informations sont retransmises à Max MSP via <a href="http://opensoundcontrol.org/">OSC</a>.</p>
-                            <p>Le vernissage du projet a eu lieu le vendredi 12 décembre de 17h à 21h au Pavillon J.-E. de l'UQÀM.</p>
-                            <p>La journaliste Paméla Lajeunesse couvra l'évènement dans un article intitulé <em><a href="http://www.nightlife.ca/2014/12/15/les-etudiants-en-medias-interactifs-luqam-nous-presentent-leurs-fous-projets-de-fin-de-session">Les étudiants en Médias Interactifs à l'UQÀM nous présentent leurs fous projets de fin de session!</a></em></p>
-                            <p><a href="//miuqam.github.io/anakronysm" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <a href="http://ecosociete.org/" target="_blank">                                     <img src="/content/ecosociete.png" alt="Écosociété" class="img-responsive">
-                            </a>                                    </div>
-                        <div class="col-md-6 col-sm-12">
-                            <h4>Écosociété</h4>
-                            <p>Site vitrine et outil de recherche de livres pour l'éditeur Écosociété réalisé chez <a href="http://molotov.ca" target="_blank">Molotov</a>. Le design a été réalisé par <a href="http://www.tostaky.co/nicolas/" target="_blank">Nicolas Bonnet</a>, l'intégration front-end et la programmation back-end par moi-même.</p>
-                            <p>Premier projet réalisé en <a href="https://www.ruby-lang.org/fr/" target="_blank">Ruby</a> pour moi, j'ai développé un CMS complet basé sur le framework <a href="http://rubyonrails.org/" target="_blank">Rails</a>, utilisant l'interface d'administration <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a>. La recherche est supportée par <a href="http://elasticsearch.org" target="_blank">Elasticsearch</a>, permettant une grande optimisation des ressources ainsi que de meilleurs resultats.</p>
-                            <p>C'est sur le conseil de mon collègue <a href="https://github.com/gcoderre" target="_blank">Guillaume Coderre</a> que j'ai développé ce site en Ruby on Rails au lieu de PHP. Les gains sont nombreux, autant au début du développement que lors des maintenances post-lancement.</p>
-                            <p>Le tout est compilé et déployé sur <a href="http://heroku.com" target="_blank">Heroku</a> et les ressources tels que les pochettes de livres sont distribuées par le CDN <a href="http://aws.amazon.com/fr/s3/" target="_blank">Amazon S3</a>.</p>
-                            <p><a href="http://ecosociete.org/" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                 </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="img-container">
-                                <div class="description">Crédit photo: <a href="http://t-o-f.info">Thomas Ouellet Fredericks</a></div>
-                                    <a href="https://github.com/th3m4ri0/projet-captation" target="_blank">
-                                        <img src="/content/captation.jpg" alt="Projet captation" class="img-responsive">
-                                    </a>
-                                </div>
-                            </div>
-                        <div class="col-md-6 col-sm-12">
-                            <h4>Projet captation</h4>
-                            <p>Dans le cadre du travail de Captation (TP2) du cours EDM4640, nous avons créé un monde dont les éléments sont contrôlés par trois senseurs reliés à un Arduino Leonardo. Le "Liquid Flow Meter" calcule l'écoulement de l'eau. Le "Thermistor" calcule la chaleur de la cuiller. Le "DC Motor" calcule la force du vent.</p>
-                            <p>Si aucun capteur Arduino ne communique avec le serveur pendant une durée de plus de 5 secondes, le programme passe en mode "idle" afin de montrer les capacités du projet même lorsqu'il n'est pas installé.</p>
-                            <p>Réalisé en équipe avec <a href="http://ca.linkedin.com/pub/ruby-maude-rioux/5a/3b9/b5a" target="_blank">Ruby-Maude Rioux</a></p>
-                            <p><a href="https://github.com/th3m4ri0/projet-captation" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                 </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <a href="http://github.com/th3m4ri0/multi-presentation/" target="_blank">                                        <img src="/content/demo.gif" alt="Multi-presentation" class="img-responsive">
-                            </a>                                    </div>
-                        <div class="col-md-6 col-sm-12">
-                            <h4>Multi-presentation</h4>
-                            <p>Cette application node.js permet de faire des présentations interactives, que l'ont peut suivre à la fois à l'écran mais aussi sur un smartphone ou une tablette. Après plusieurs utilisations fructueuses, j'ai décidé de mettre mon projet sur GitHub afin de permettre à d'autres d'utiliser ce projet et de participer à son amélioration. Un lien vers une démonstration est disponible sur la page du projet.</p>
-                            <p><a href="http://th3m4ri0.github.io/multi-presentation/" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet sur GitHub</a></p>                                 </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <a href="http://ball.erwandorgeville.com" target="_blank">                                      <img src="/content/balldro.png" alt="Ball Drop" class="img-responsive">
-                            </a>                                    </div>
-                        <div class="col-md-6 col-sm-12">
-                            <h4>Ball Drop</h4>
-                            <p>Projet interactif réalisé dans mes temps libres lors de ma dernière session en Techniques d’intégration multimédia. À la base, ce projet n’était qu’une extension mineure du précédent posté sur mon site (le tutoriel node.js). Petit à petit, j’y ai ajouté des fonctionnalités, donnant finalement Ball Drop. Faute de temps, je n’avais jusqu’à présent jamais pu le mettre en ligne, jusqu’à peu. J’ai pu utiliser Heroku pour pouvoir déployer mon application en ligne (application qui ne fonctionnait qu’en local auparavant) à moindre frais (0$).
-Grâce à ce projet, j’ai amélioré mes connaissances en node.js (et de ce fait aussi en Javascript), découvert Box2D (et sa syntaxe C-style), approfondi le déploiement avec Git, créé un map editor avec Flash, et bien d’autres choses.</p>
-                            <p><a href="http://ball.erwandorgeville.com" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                  </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <a href="http://frontcommun.org/" target="_blank">                                     <img src="/content/frontcommun.png" alt="Front Commun 2015" class="img-responsive">
-                                    </a>                                    </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <h4>Front Commun 2015</h4>
-                                    <p>Microsite de campagne réalisé chez <a href="http://molotov.ca" target="_blank">Molotov</a>. Le design a été réalisé par <a href="http://www.tostaky.co/nicolas/" target="_blank">Nicolas Bonnet</a>, l'intégration front-end par moi-même.</p>
-                                    <p><a href="http://frontcommun.org/" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <a href="http://raisons-sociales.com/" target="_blank">                                     <img src="/content/raisons-sociales.png" alt="Raisons sociales" class="img-responsive">
-                                    </a>                                    </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <h4>Raisons sociales</h4>
-                                    <p>Site web pour la revue critique québécoise Raisons Sociales réalisé chez <a href="http://molotov.ca" target="_blank">Molotov</a>. Le design a été réalisé par <a href="http://www.tostaky.co/nicolas/" target="_blank">Nicolas Bonnet</a>, l'intégration front-end par moi-même et la programmation back-end par <a href="https://github.com/gcoderre" target="_blank">Guillaume Coderre</a>. Le site est 100% compatible avec les appareils à affichage retina.</p>
-                                    <p><a href="http://raisons-sociales.com/" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <a href="http://erwandorgeville.com/tutoriel/nodejs" target="_blank">                                       <img src="/content/node.js.png" alt="Tutoriel Node.js" class="img-responsive">
-                                    </a>                                    </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <h4>Tutoriel Node.js</h4>
-                                    <p>Tutoriel pour réaliser un mini-chat en temps réel à l'aide de node.js et socket.io. Préparé dans le cadre du cours Intégration en Ligne IV du programme Techniques d'intégration multimédia au Collège Édouard Montpetit.</p>
-                                    <p><a href="http://erwandorgeville.com/tutoriel/nodejs" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                   </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <a href="http://laicitefeministe.com" target="_blank">                                      <img src="/content/laicitefeministe.png" alt="Laïcité féministe" class="img-responsive">
-                                    </a>                                    </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <h4>Laïcité féministe</h4>
-                                    <p>Microsite réalisé pour la FFQ chez Molotov. Le design a été réalisé par <a href="http://www.arnaudbaty.fr/" target="_blank">Arnaud Baty</a>, l'intégration front-end et la programmation back-end par moi-même. Quelques technologies utilisées : AnchorCMS (back) et Masonry (front).</p>
-                                    <p><a href="http://laicitefeministe.com" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>                                  </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="history">
-            <div class="container">
+<section id="portfolio" class="hidden-print">
+    <div class="container">
+        <h3>Portfolio</h3>
+        <ul class="projects-container no-list">
+          {% assign sorted_posts = (site.posts | sort: 'order') %}
+          {% for post in sorted_posts %}
+            <li>
                 <div class="row">
-                    <div class="col-xs-12">
-                        <h3>Historique</h3>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="img-container">
+                            {% if post.image.description %}<div class="description">{{ post.image.description }}</div>{% endif %}
+                            {% if post.link %}<a href="{{ post.link }}" target="_blank">{% endif %}
+                                <img src="{{ post.image.url }}" alt="{{ post.image.alt }}" class="img-responsive">
+                            {% if post.link %}</a>{% endif %}
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h4>{{ post.title }}</h4>
+                        {{ post.content }}
+                        {% if post.link %}<p><a href="{{ post.link }}" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>{% endif %}
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-12">
-                        <h4>Éducation</h4>
-                        <ul class="no-list">
-                            <li>
-                                <b><a href="http://www.etudier.uqam.ca/programme?code=7231" target="_blank">Baccalauréat en communication (médias interactifs)</a></b>
-                                <p>Université du Québec à Montréal</p>
-                                <p>Baccalauréat de 3 ans</p>
-                                <p><em>Automne 2013 - En cours // Diplôme espéré printemps 2016</em></p>
-                            </li>
-                            <li>
-                                <b><a href="http://sat.qc.ca/evenements/mapping-video-madmapper" target="_blank">Mapping Vidéo - MadMapper + Resolume</a></b>
-                                <p>Société des Arts Technologiques</p>
-                                <p>Formation théorique et pratique de 24 heures</p>
-                                <p><em>Novembre 2013 - décembre 2013</em></p>
-                            </li>
-                            <li>
-                                <b><a href="http://www.college-em.qc.ca/campus-de-longueuil/programmes-et-admission/cours-formation-technique-collegial-soins-infirmiers-et-autres/582a1-techniques-dintegration-multimedia" target="_blank">Techniques d'intégration multimédia</a></b>
-                                <p>Collège Édouard Montpetit</p>
-                                <p>DEC de 3 ans</p>
-                                <p><em>Automne 2010 - Gradué printemps 2013</em></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <h4>Expérience de travail</h4>
-                        <ul class="no-list">
-                            <li>
-                                <b>Molotov communications alternatives</b>
-                                <p>Coopérative de travail</p>
-                                <p><a href="http://molotov.ca" target="_blank"><span class="glyphicon glyphicon-open"></span> Site web</a></p>
-                                <p><em>Août 2013 - présent</em></p>
-                            </li>
-                            <li>
-                                <b>QuatreCentQuatre</b>
-                                <p>Production Web, Mobile</p>
-                                <p><a href="http://quatrecentquatre.com" target="_blank"><span class="glyphicon glyphicon-open"></span> Site web</a></p>
-                                <p><em>Avril 2013 - Août 2013</em></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+</section>
 
-    <footer>
+<section id="history">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Contact</h3>
-                </div>
-                <div class="col-md-3 col-sm-12">
-                    <h4>Courriel</h4>
-                    <p><a href="mailto:info@erwandorgeville.com" target="_blank">info@erwandorgeville.com</a></p>
-                </div>
-                <div class="col-md-3 col-sm-12">
-                    <h4>Téléphone</h4>
-                    <p><a href="tel:5143717943">+1 514.371.7943</a></p>
-                </div>
-                <div class="col-md-3 col-sm-12 hidden-print">
-                    <h4>Réseaux sociaux / Communautés</h4>
-                    <p><a href="http://github.com/th3m4ri0" target="_blank">GitHub</a></p>
-                    <p><a href="http://facebook.com/th3m4ri0" target="_blank">Facebook</a></p>
-                    <p><a href="http://twitter.com/th3m4ri0" target="_blank">Twitter</a></p>
-                    <p><a href="http://linkedin.com/in/th3m4ri0" target="_blank">LinkedIn</a></p>
-                    <p><a href="https://www.freelancer.com/u/th3m4ri0.html" target="_blank">Freelancer</a></p>
+                    <h3>Historique</h3>
                 </div>
             </div>
-            <div class="row hidden-print">
-                <div class="col-xs-12">
-                    <hr>
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <h4>Éducation</h4>
+                    <ul class="no-list">
+                        <li>
+                            <b><a href="http://www.etudier.uqam.ca/programme?code=7231" target="_blank">Baccalauréat en communication (médias interactifs)</a></b>
+                            <p>Université du Québec à Montréal</p>
+                            <p>Baccalauréat de 3 ans</p>
+                            <p><em>Automne 2013 - En cours // Diplôme espéré printemps 2016</em></p>
+                        </li>
+                        <li>
+                            <b><a href="http://sat.qc.ca/evenements/mapping-video-madmapper" target="_blank">Mapping Vidéo - MadMapper + Resolume</a></b>
+                            <p>Société des Arts Technologiques</p>
+                            <p>Formation théorique et pratique de 24 heures</p>
+                            <p><em>Novembre 2013 - décembre 2013</em></p>
+                        </li>
+                        <li>
+                            <b><a href="http://www.college-em.qc.ca/campus-de-longueuil/programmes-et-admission/cours-formation-technique-collegial-soins-infirmiers-et-autres/582a1-techniques-dintegration-multimedia" target="_blank">Techniques d'intégration multimédia</a></b>
+                            <p>Collège Édouard Montpetit</p>
+                            <p>DEC de 3 ans</p>
+                            <p><em>Automne 2010 - Gradué printemps 2013</em></p>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row hidden-print">
-                <div class="col-xs-12">
-                    <h3>Crédits</h3>
-                    <p><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a> & <a href="http://glyphicons.com" target="_blank">Glyphicons</a>, <a href="http://jquery.com" target="_blank">jQuery</a>, <a href="http://modernizr.com/">Modernizr</a>
-                    <p>Nom de domaine par <a href="http://laradioradio.com/" target="_blank">iwantmyname</a>, DNS par <a href="http://cloudflare.com" target="_blank">Cloudflare</a> (gratuit), hébergement par <a href="https://pages.github.com/" target="_blank">Github Pages</a> (gratuit) et <a href="https://www.digitalocean.com/?refcode=1e6b9d65b1f8" target="_blank">Digital Ocean</a>, email par <a href="http://mail.zoho.com" target="_blank">Zoho Mail</a> (gratuit).</p>
-                    <p>Crédits photo : <a href="http://alexandreclaude.com" target="_blank">Alexandre Claude</a> pour <a href="http://molotov.ca" target="_blank">Molotov communications alternatives</a></p></p>
+                <div class="col-md-3 col-sm-12">
+                    <h4>Expérience de travail</h4>
+                    <ul class="no-list">
+                        <li>
+                            <b>Molotov communications alternatives</b>
+                            <p>Coopérative de travail</p>
+                            <p><a href="http://molotov.ca" target="_blank"><span class="glyphicon glyphicon-open"></span> Site web</a></p>
+                            <p><em>Août 2013 - présent</em></p>
+                        </li>
+                        <li>
+                            <b>QuatreCentQuatre</b>
+                            <p>Production Web, Mobile</p>
+                            <p><a href="http://quatrecentquatre.com" target="_blank"><span class="glyphicon glyphicon-open"></span> Site web</a></p>
+                            <p><em>Avril 2013 - Août 2013</em></p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </footer>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/app.js"></script>
-</body>
-</html>
+</section>
