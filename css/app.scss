@@ -184,34 +184,61 @@ header{
 .datface {
     position: absolute;
     border-radius: 50%;
-    top: 50%;
-    bottom: 50%;
-    right: 50%;
-    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     background-color: #2c3f50;
     overflow:hidden;
     img{
         width: 100%;
         height: auto;
     }
-    -webkit-transition: all 800ms cubic-bezier(1.000, 0.000, 0.425, 1); /* older webkit */
-    -webkit-transition: all 800ms cubic-bezier(1.000, 0.000, 0.425, 1.650); 
-       -moz-transition: all 800ms cubic-bezier(1.000, 0.000, 0.425, 1.650); 
-         -o-transition: all 800ms cubic-bezier(1.000, 0.000, 0.425, 1.650); 
-            transition: all 800ms cubic-bezier(1.000, 0.000, 0.425, 1.650); /* custom */
+    -webkit-animation: datbounce 2000ms cubic-bezier(1.000, 0.000, 0.425, 1); /* older webkit */
+    -webkit-animation: datbounce 2000ms cubic-bezier(1.000, 0.000, 0.425, 1.650); 
+       -moz-animation: datbounce 2000ms cubic-bezier(1.000, 0.000, 0.425, 1.650); 
+         -o-animation: datbounce 2000ms cubic-bezier(1.000, 0.000, 0.425, 1.650); 
+            animation: datbounce 2000ms cubic-bezier(1.000, 0.000, 0.425, 1.650); /* custom */
 
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); 
-       -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); 
-         -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); 
-            transition-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); /* custom */
+    -webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1); /* older webkit */
+    -webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); 
+       -moz-animation-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); 
+         -o-animation-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); 
+            animation-timing-function: cubic-bezier(1.000, 0.000, 0.425, 1.650); /* custom */
 }
 
-.ready .datface{
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+@keyframes datbounce {
+    0% { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    80%   { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    100%   { top: 0; bottom: 0; right: 0; left: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes datbounce {
+    0% { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    80%   { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    100%   { top: 0; bottom: 0; right: 0; left: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes datbounce {
+    0% { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    80%   { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    100%   { top: 0; bottom: 0; right: 0; left: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes datbounce {
+    0% { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    80%   { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    100%   { top: 0; bottom: 0; right: 0; left: 0; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes datbounce {
+    0% { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    80%   { top: 50%; bottom: 50%; right: 50%; left: 50%; }
+    100%   { top: 0; bottom: 0; right: 0; left: 0; }
 }
 
 .no-list{
