@@ -113,18 +113,40 @@ footer{
     background-color: $black;
 }
 
+header{
+    position: relative;
+    overflow: hidden;
+    &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        background-image: url('/img/background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+        opacity: 0.75;
+        overflow: hidden;
+        top: -5px; right: -5px; bottom: -5px; left: -5px;
+    }
+}
+
 #wow{
     background-color: $veryblack;
-    background-image: url('../img/erwan.jpg');
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    // background-image: url('../img/erwan.jpg');
+    // background-image: url('https://unsplash.imgix.net/uploads/14120938606568dde6e2b/c9e42240?q=75&fm=jpg&s=30cfed70f59bbfce34b374e629bb5f84');
+    // background-size: contain;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
     color: $white;
     text-align: center;
 
-    padding-top: 25%;
-    padding-bottom: 20%;
+    padding-top: 15%;
+    padding-bottom: 10%;
     .veryblack{
         background-color: rgba(0, 0, 0, 0.8);
         padding-top: 10px;
@@ -132,6 +154,32 @@ footer{
         h2{
             margin-bottom: 0;
         }
+    }
+}
+
+.datface-container {
+    border-radius: 50%;
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin:1em 0;
+}
+.datface-container:after {
+    padding-top: 100%;
+    display: block;
+    content: '';
+}
+.datface {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #2c3f50;
+    overflow:hidden;
+    img{
+        max-width: 100%;
     }
 }
 
