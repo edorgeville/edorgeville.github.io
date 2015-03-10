@@ -323,6 +323,12 @@ hr{
     100% {height:35px;overflow: initial;}
 }
 
+@media (max-height: 1200px) {
+    #wow{
+        padding-top: 10%;
+    }
+}
+
 @media print{
     #wow{
         padding-top: 0;
