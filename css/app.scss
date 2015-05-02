@@ -289,9 +289,14 @@ hr{
 }
 
 
+#fb-like, #gh-follow{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 30px;
+    padding: 0 0.1em;
+}
 
-
-#fb-like{
+#social-container{
     padding-top:10px;
     height:0px;
     overflow: hidden;
@@ -301,7 +306,7 @@ hr{
 }
 
 .ready{
-    #fb-like{
+    #social-container{
         height:35px;
         animation: fb-like 2s;
         -webkit-animation: fb-like 2s; /* Safari and Chrome */

@@ -23,8 +23,13 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div id="fb-like" class="hidden-print">
-                            <div class="fb-like" data-href="{{ site.baseurl }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                        <div id="social-container" class="hidden-print">
+                            <div id="fb-like">
+                                <div class="fb-like" data-href="{{ site.baseurl }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                            </div>
+                            <div id="gh-follow">
+                                <a class="github-button" href="https://github.com/{{ site.github_username }}" data-count-href="/{{ site.github_username }}/followers" data-count-api="/users/{{ site.github_username }}#followers" data-count-aria-label="# followers sur GitHub" aria-label="Suivre @{{ site.github_username }} sur GitHub">Suivre</a>
+                            </div>
                         </div>
                     </div>
                 </div>
