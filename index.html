@@ -4,10 +4,13 @@ layout: default
 
 <section id="about" class="hidden-print">
     <div class="container">
-        <h3>À propos</h3>
-        <p>Passionné par le web depuis l'âge de 10 ans, j'aime jouer avec les dernières nouveautés sur les Internets.</p>
-        <p>Je code et déploie des sites statiques / dynamiques / interactifs / applicatifs / innovateurs / etc. en HTML5 / CSS3 / JS / PHP / Ruby on Rails / NodeJS.</p>
-        <p class="hidden-print"><a href="#" class="print"><span class="glyphicon glyphicon-print"></span> Imprimer mon CV</a></p>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>À propos</h3>
+                <p>{{ site.description }}</p>
+                <p class="hidden-print"><a href="#" class="print"><span class="glyphicon glyphicon-print"></span> Imprimer mon CV</a></p>
+            </div>
+        </div>
     </div>
 </section>
 
