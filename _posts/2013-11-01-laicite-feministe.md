@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Laïcité féministe"
-order: 9
+order: 10
 image:
     url: "/content/laicitefeministe.png"
     alt: "Laïcité féministe"

@@ -24,10 +24,14 @@ layout: default
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="img-container">
-                            {% if post.image.description %}<div class="description">{{ post.image.description }}</div>{% endif %}
-                            {% if post.link %}<a href="{{ post.link }}" target="_blank">{% endif %}
-                                <img src="{{ post.image.url }}" alt="{{ post.image.alt }}" class="img-responsive">
-                            {% if post.link %}</a>{% endif %}
+                            {% if post.video %}
+                                <iframe src="{{ post.video }}" width="100%" style="min-height:260px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="background-image:url('{{ post.image.url }}'); background-size: 100% 100%;"></iframe>
+                            {% else %}
+                                {% if post.image.description %}<div class="description">{{ post.image.description }}</div>{% endif %}
+                                {% if post.link %}<a href="{{ post.link }}" target="_blank">{% endif %}
+                                    <img src="{{ post.image.url }}" alt="{{ post.image.alt }}" class="img-responsive">
+                                {% if post.link %}</a>{% endif %}
+                            {% endif %}
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
