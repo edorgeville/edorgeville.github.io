@@ -5,7 +5,7 @@ order: 0
 image:
     url: "/content/lonely_land.png"
     alt: "lonely_land"
-link: "https://vimeo.com/130586898"
+link: "http://lonely-land.com"
 video: "https://player.vimeo.com/video/130586898?color=ffffff&title=0&byline=0&portrait=0"
 ---
 
