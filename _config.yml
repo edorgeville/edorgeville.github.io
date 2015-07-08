@@ -12,6 +12,8 @@ url: "http://erwandorgeville.com" # the base hostname & protocol for your site
 og_image: "http://og.erwandorgeville.com/screenshot.png"
 username: &username th3m4ri0
 github_username: *username
+stackoverflow_user_id: 2105371
+stackoverflow_username: *username
 facebook_username: *username
 facebook_user_id: 1667524238
 twitter_username: *username

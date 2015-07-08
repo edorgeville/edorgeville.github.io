@@ -15,6 +15,7 @@
             <div class="col-md-3 col-sm-12 hidden-print">
                 <h4>Réseaux sociaux / Communautés</h4>
                 {% if site.github_username %}<p><a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a></p>{% endif %}
+                {% if site.stackoverflow_username %}<p><a href="http://stackoverflow.com/users/{{ site.stackoverflow_user_id }}" target="_blank">StackOverflow</a> / <a href="https://careers.stackoverflow.com/{{ site.stackoverflow_username }}" target="_blank">StackOverflow Careers</a></p>{% endif %}
                 {% if site.facebook_username %}<p><a href="http://facebook.com/{{ site.facebook_username }}" target="_blank">Facebook</a></p>{% endif %}
                 {% if site.twitter_username %}<p><a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a></p>{% endif %}
                 {% if site.linkedin_username %}<p><a href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a></p>{% endif %}
