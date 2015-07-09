@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="datface-container">
+                        <div class="datface-container hidden-print">
                             <div class="datface">
                                 <img src="http://graph.facebook.com/{{ site.facebook_user_id }}/picture?width=500&height=500" alt="{{ site.face.name }}">
                             </div>
@@ -18,7 +18,8 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>{{ site.job }}<span> | </span><a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></h2>
+                        <h2>{{ site.job }}<span> | </span><a href="mailto:{{ site.email }}" class="hidden-print" target="_blank">{{ site.email }}</a></h2>
+                        <h2 class="visible-print"><a href="{{ site.url }}">{{ site.url }}</a></h2>
                     </div>
                 </div>
                 <div class="row">
