@@ -1,0 +1,1 @@
+web: jekyll s --port $PORT

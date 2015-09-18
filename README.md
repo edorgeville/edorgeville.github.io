@@ -1,4 +1,11 @@
 # erwandorgeville.com
 ## My portfolio
 
-```jekyll s --port 5000```
+
+## Development
+```foreman start```
+
+## Generating a new project 
+```
+ruby create_project.rb
+``` 
