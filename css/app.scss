@@ -11,3 +11,9 @@
 @import "inc/variables";
 @import "inc/base";
 @import "inc/print";
+
+.doge{
+    header:before{
+        background-image: url('http://i.ytimg.com/vi/jr2q4nqkle8/maxresdefault.jpg');
+    }
+}
