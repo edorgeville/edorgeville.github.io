@@ -93,6 +93,7 @@ section, footer{
 }
 
 footer{
+    position: relative;
     background-color: $black;
     color: $white;
 }
@@ -340,4 +341,12 @@ hr{
         padding: 5px 10px;
         background-color: rgba(0,0,0,0.75);
     }
+}
+
+footer .github-fork-ribbon-wrapper{
+    position: absolute !important;
+}
+
+footer .github-fork-ribbon{
+    background-color: #333;
 }

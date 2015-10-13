@@ -18,26 +18,26 @@ layout: default
     <div class="container">
         <h3>Portfolio</h3>
         <ul class="projects-container no-list">
-          {% assign sorted_posts = (site.posts | sort: 'order') %}
-          {% for post in sorted_posts %}
+          {% assign sorted_projects = (site.projects | sort: 'order') %}
+          {% for project in sorted_projects %}
             <li>
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="img-container">
-                            {% if post.video %}
-                                <iframe src="{{ post.video }}" width="100%" style="min-height:260px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="background-image:url('{{ post.image.url }}'); background-size: 100% 100%;"></iframe>
+                            {% if project.video %}
+                                <iframe src="{{ project.video }}" width="100%" style="min-height:260px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="background-image:url('{{ project.image.url }}'); background-size: 100% 100%;"></iframe>
                             {% else %}
-                                {% if post.image.description %}<div class="description">{{ post.image.description }}</div>{% endif %}
-                                {% if post.link %}<a href="{{ post.link }}" target="_blank">{% endif %}
-                                    <img src="{{ post.image.url }}" alt="{{ post.image.alt }}" class="img-responsive">
-                                {% if post.link %}</a>{% endif %}
+                                {% if project.image.description %}<div class="description">{{ project.image.description }}</div>{% endif %}
+                                {% if project.link %}<a href="{{ project.link }}" target="_blank">{% endif %}
+                                    <img src="{{ project.image.url }}" alt="{{ project.image.alt }}" class="img-responsive">
+                                {% if project.link %}</a>{% endif %}
                             {% endif %}
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <h4>{{ post.title }}</h4>
-                        {{ post.content }}
-                        {% if post.link %}<p><a href="{{ post.link }}" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>{% endif %}
+                        <h4>{{ project.title }}</h4>
+                        {{ project.content }}
+                        {% if project.link %}<p><a href="{{ project.link }}" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>{% endif %}
                     </div>
                 </div>
             </li>
