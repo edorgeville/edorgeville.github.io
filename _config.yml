@@ -9,6 +9,7 @@ face:
 description: Code et déploie des sites statiques / dynamiques / interactifs / applicatifs / innovateurs / etc. en HTML5 / CSS3 / JS / PHP / Ruby on Rails / NodeJS / et plus encore !
 baseurl: "" 
 url: "http://erwandorgeville.com"
+clean_url: "erwandorgeville.com"
 og_image: "http://og.erwandorgeville.com/screenshot.png"
 username: &username th3m4ri0
 github_username: *username

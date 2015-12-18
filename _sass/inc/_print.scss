@@ -10,14 +10,22 @@
         padding-bottom: 0;
         text-align: left;
     }
+    h1, h2{
+        font-size: 16px;
+        margin-bottom: 5px !important;
+    }
     h2{
         span{
             display:block;
             font-size: 0;
         }
     }
+    section h3{
+        margin-bottom: 0;
+    }
     section h4{
-        margin-top: 40px;
+        margin-top: 15px;
+        margin-bottom: 0px;
     }
     footer{
         position: absolute;
@@ -30,5 +38,10 @@
     }
     .github-fork-ribbon-wrapper{
         display: none;
+    }
+
+    .col-xs-12 {
+      width: 50%;
+      float: left;
     }
 }
