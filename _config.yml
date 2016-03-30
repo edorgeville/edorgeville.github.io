@@ -1,12 +1,12 @@
 # Site settings
 name: Erwan d'Orgeville
-job: Développeur Web
-title: Erwan d'Orgeville - Développeur Web
+job: "Développeur web & interactif"
+title: "Erwan d'Orgeville - Développeur web & interactif"
 email: info@erwandorgeville.com
 face:
     url: /img/freshwan.jpg
     alt: Erwan
-description: Code et déploie des sites statiques / dynamiques / interactifs / applicatifs / innovateurs / etc. en HTML5 / CSS3 / JS / PHP / Ruby on Rails / NodeJS / et plus encore !
+description: "Développeur front-end et back-end (fan de Ruby <img src='/img/ruby.png' height=15 %>). Adepte de TouchDesigner. Actif sur Facebook, mais pas sur Twitter."
 baseurl: "" 
 url: "http://erwandorgeville.com"
 clean_url: "erwandorgeville.com"
