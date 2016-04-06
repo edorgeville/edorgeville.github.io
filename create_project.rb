@@ -54,7 +54,3 @@ link: \"#{link}\"
 project.close
 
 puts "Created project at #{project_path}"
-
-
-
-# http://baronmag.com/wp-content/uploads/2015/09/UrbaniaCA005-43-of-104.jpg
