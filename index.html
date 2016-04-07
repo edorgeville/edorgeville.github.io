@@ -25,7 +25,7 @@ layout: default
                     <div class="col-md-6 col-sm-12">
                         <div class="img-container">
                             {% if project.video %}
-                                <iframe src="{{ project.video }}" width="100%" style="min-height:260px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="background-image:url('{{ project.image.url }}'); background-size: 100% 100%;"></iframe>
+                                <iframe src="{{ project.video }}" width="100%" style="min-height:310px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="background-image:url('{{ project.image.url }}'); background-size: 100% 100%;"></iframe>
                             {% else %}
                                 {% if project.image.description %}<div class="description">{{ project.image.description }}</div>{% endif %}
                                 {% if project.link %}<a href="{{ project.link }}" target="_blank">{% endif %}
