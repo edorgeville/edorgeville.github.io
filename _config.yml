@@ -12,7 +12,7 @@ url: "http://erwandorgeville.com"
 clean_url: "erwandorgeville.com"
 og_image: "http://og.erwandorgeville.com/screenshot.png"
 username: &username th3m4ri0
-username_clean: &username_clean th3m4ri0
+username_clean: &username_clean edorgeville
 github_username: *username_clean
 stackoverflow_user_id: 2105371
 stackoverflow_username: *username
