@@ -36,9 +36,11 @@
             </div>
         </div>
     </div>
+    {% if site.github_username %}
     <div class="github-fork-ribbon-wrapper right-bottom">
         <div class="github-fork-ribbon">
-            <a href="https://github.com/th3m4ri0/th3m4ri0.github.io">Fork me on GitHub</a>
+            <a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io">Fork me on GitHub</a>
         </div>
     </div>
+    {% endif %}
 </footer>
