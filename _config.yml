@@ -12,13 +12,14 @@ url: "http://erwandorgeville.com"
 clean_url: "erwandorgeville.com"
 og_image: "http://og.erwandorgeville.com/screenshot.png"
 username: &username th3m4ri0
+username_clean: &username_clean th3m4ri0
 github_username: *username
 stackoverflow_user_id: 2105371
 stackoverflow_username: *username
-facebook_username: edorgeville
+facebook_username: *username_clean
 facebook_user_id: 1667524238
-twitter_username: *username
-linkedin_username: edorgeville
+twitter_username: *username_clean
+linkedin_username: *username_clean
 freelancer_username: *username
 phone: "+1 514.371.7943"
 phone_number: "+15143717943"
