@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "lonely_land"
-order: 2
+order: 3
 image:
     url: "/content/lonely_land.png"
     alt: "lonely_land"

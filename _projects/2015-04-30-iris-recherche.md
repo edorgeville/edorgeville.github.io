@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IRIS"
-order: 2
+order: 3
 image:
     url: "/content/iris.png"
     alt: "IRIS"
