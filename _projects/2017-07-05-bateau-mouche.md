@@ -4,8 +4,8 @@ title:  "Bateau mouche - Expérience audiovisuelle"
 order: 1
 image:
     url: "/content/bateau-mouche.gif"
-    alt: "Aura"
-link: "https://www.youtube.com/watch?v=-YZrbSADHuM"
+    alt: "Bateau mouche"
+link: "https://xyz-tc.com/realisations/bateau-mouche/"
 ---
 
 _Pour ses 25 ans et le 375e de Montréal, Le Bateau-Mouche au Vieux-Port de Montréal offre une expérience immersive musique, son et lumière réalisée par XYZ lors de ses soupers croisières._  
