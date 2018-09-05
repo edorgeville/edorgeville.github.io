@@ -10,9 +10,9 @@ face:
 description: "Développeur interactif (TouchDesigner) et back-end (Rails <img src='/img/ruby.png' height=15 %>). Actif sur Facebook, mais pas sur Twitter."
 description_en: "Interactive (TouchDesigner) and back-end (Rails <img src='/img/ruby.png' height=15 %>) developer. Active on Facebook, not on Twitter."
 baseurl: "" 
-url: "http://erwandorgeville.com"
+url: "https://erwandorgeville.com"
 clean_url: "erwandorgeville.com"
-og_image: "http://og.erwandorgeville.com/screenshot.png"
+og_image: "//og.erwandorgeville.com/screenshot.png"
 username: &username th3m4ri0
 username_clean: &username_clean edorgeville
 github_username: *username_clean
