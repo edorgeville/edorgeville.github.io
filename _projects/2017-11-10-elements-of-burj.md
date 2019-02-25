@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Burj Khalifa ATT: Elements of Burj"
-order: 0
+order: 1
 image:
     url: "/content/elements-of-burj.gif"
     alt: "Elements of Burj"
 link: "https://www.xyz-tc.com/realisations/elements-of-burj-khalifa/"
+year: 2017
+more: true
 ---
 
 En collaboration avec [_GSM Project_](http://gsmproject.com) et [_Fly Studio_](http://flystudio.com), [XYZ Technologie Culturelle](http://xyz-tc.com) a participé à la réalisation du projet _Elements of Burj_. Il s'agit d'une maquette du _Burj Khalifa_, laquelle est rendue interactive au moyen de 4 caméras de suivi 3D, 3 projecteurs 4K, 3 projecteurs HD et des hauts parleurs situés tout autour. Cette « fontaine » interactive se trouve à la réception de l'activité _At the Top_, divertissant les visiteurs en chemin pour les ascenseurs qui les amèneront en haut de la tour. L'utilisateur est invité à interagir avec des systèmes de particules en temps réel sur un canvas d'une résolution de près de 6K, offrant une qualité d'image rarement observée à cette échelle.

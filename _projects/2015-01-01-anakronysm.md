@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Anakronysm"
-order: 4
+order: 6
 image:
     url: "/content/anakronysm2.jpg"
     description: "Crédit photo: Vincent Noël"
     alt: "Anakronysm"
 link: "//miuqam.github.io/anakronysm"
+year: 2015
 ---
 
 _Recréant l’univers ludique des premiers dessins animés, Anakronysm vous propose un saut dans le temps, permettant à chaque utilisateur de devenir un projectionniste du début du 20e siècle en utilisant la technologie d’aujourd’hui._  

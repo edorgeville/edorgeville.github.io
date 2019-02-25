@@ -20,7 +20,7 @@ layout: default
         <ul class="projects-container no-list">
           {% assign sorted_projects = (site.projects | sort: 'order') %}
           {% for project in sorted_projects %}
-            <li>
+            <li class="{% if project.more %}more{% endif %}">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="img-container">
@@ -36,6 +36,7 @@ layout: default
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <h4>{{ project.title }}</h4>
+                        {% if project.year %}<h5>{{ project.year }}</h5>{% endif %}
                         {{ project.content }}
                         {% if project.link %}<p><a href="{{ project.link }}" target="_blank"><span class="glyphicon glyphicon-open"></span> Voir le projet</a></p>{% endif %}
                     </div>

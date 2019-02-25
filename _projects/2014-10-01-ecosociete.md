@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Écosocieté"
-order: 5
+order: 7
 image:
     url: "/content/ecosociete.png"
     alt: "Écosociété"
 link: "http://ecosociete.org"
+year: 2014
 ---
 
 Site vitrine et outil de recherche de livres pour l'éditeur Écosociété réalisé chez [Molotov](http://molotov.ca). Le design a été réalisé par [Nicolas Bonnet](http://www.tostaky.co/nicolas/), l'intégration front-end et la programmation back-end par moi-même.

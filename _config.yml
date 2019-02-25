@@ -7,8 +7,8 @@ email: info@erwandorgeville.com
 face:
     url: /img/freshwan.jpg
     alt: Erwan
-description: "Développeur interactif (TouchDesigner) et back-end (Rails <img src='/img/ruby.png' height=15 %>). Actif sur Facebook, mais pas sur Twitter."
-description_en: "Interactive (TouchDesigner) and back-end (Rails <img src='/img/ruby.png' height=15 %>) developer. Active on Facebook, not on Twitter."
+description: "Développeur interactif (TouchDesigner) et back-end (Rails <img src='/img/ruby.png' height=15 %>)"
+description_en: "Interactive (TouchDesigner) and back-end (Rails <img src='/img/ruby.png' height=15 %>) developer."
 baseurl: "" 
 url: "https://erwandorgeville.com"
 clean_url: "erwandorgeville.com"

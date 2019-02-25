@@ -334,3 +334,11 @@ footer .github-fork-ribbon-wrapper{
 footer .github-fork-ribbon{
     background-color: #333;
 }
+
+.show-more li.more{
+    display: block; 
+}
+
+li.more {
+    display: none;
+}
