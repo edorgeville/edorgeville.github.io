@@ -5,7 +5,7 @@ order: 1
 image:
     url: "/content/elements-of-burj.gif"
     alt: "Elements of Burj"
-link: "https://www.xyz-tc.com/realisations/elements-of-burj-khalifa/"
+link: "https://www.facebook.com/AtthetopBurjkhalifa/videos/1726686730677872"
 year: 2017
 more: true
 ---
