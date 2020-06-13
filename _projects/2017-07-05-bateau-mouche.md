@@ -7,7 +7,7 @@ image:
     alt: "Bateau mouche"
 link: "https://xyz-tc.com/realisations/bateau-mouche/"
 year: 2017
-more: true
+more: false
 ---
 
 _Pour ses 25 ans et le 375e de Montréal, Le Bateau-Mouche au Vieux-Port de Montréal offre une expérience immersive musique, son et lumière réalisée par XYZ lors de ses soupers croisières._  
