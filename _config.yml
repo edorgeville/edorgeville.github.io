@@ -13,16 +13,14 @@ baseurl: ""
 url: "https://erwandorgeville.com"
 clean_url: "erwandorgeville.com"
 og_image: "//og.erwandorgeville.com/screenshot.png"
-username: &username th3m4ri0
-username_clean: &username_clean edorgeville
-github_username: *username_clean
+username: &username edorgeville
+github_username: *username
 stackoverflow_user_id: 2105371
-stackoverflow_username: *username_clean
-facebook_username: *username_clean
+stackoverflow_username: *username
+facebook_username: *username
 facebook_user_id: 1667524238
-twitter_username: *username_clean
-linkedin_username: *username_clean
-freelancer_username: *username
+twitter_username: *username
+linkedin_username: *username
 phone: "+1 514.371.7943"
 phone_number: "+15143717943"
 analytics_id: "UA-36343347-1"
