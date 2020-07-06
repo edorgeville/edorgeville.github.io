@@ -2,11 +2,11 @@
 ## My portfolio
 
 ## Requirements
-- ruby 2.2.2
-- jekyll
+- docker
+- docker-compose
 
 ## Development
-```foreman start```
+```docker-compose up```
 
 ## Generating a new project 
 ```
