@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Burj Khalifa ATT: Elements of Burj"
-order: 1
+order: 2
 image:
     url: "/content/elements-of-burj.gif"
     alt: "Elements of Burj"

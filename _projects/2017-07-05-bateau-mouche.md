@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bateau mouche - Expérience audiovisuelle"
-order: 2
+order: 3
 image:
     url: "/content/bateau-mouche.gif"
     alt: "Bateau mouche"
