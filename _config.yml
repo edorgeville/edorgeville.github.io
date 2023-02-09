@@ -7,8 +7,8 @@ email: e@dor.ge
 face:
     url: /img/freshwan.jpg
     alt: Erwan
-description: "Je fais pas mal de node-red. Des fois un peu de Rails, dans le passé beaucoup de TouchDesigner. En ce moment, je focus sur les objets connectés, Docker, mélanger les deux et plus encore!"
-description_en: "I do quite a lot of node-red. Sometimes some Rails, used to do TouchDesigner. Currently into IoT, docker, mixing both and more!"
+description: "Typescripteur. Un peu de node-red, dans le passé beaucoup de TouchDesigner, un amour éternel pour Rails. En ce moment, je focus sur les objets connectés, Docker, mélanger les deux et plus encore!"
+description_en: "Typescripter. A bit of node-red, used to do a lot of TouchDesigner, forever in love with Rails. Currently into IoT, docker, mixing both and more!"
 baseurl: "" 
 url: "https://dor.ge"
 clean_url: "dor.ge"
