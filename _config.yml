@@ -21,8 +21,6 @@ facebook_username: *username
 facebook_user_id: 1667524238
 twitter_username: *username
 linkedin_username: *username
-phone: "+1 514.371.7943"
-phone_number: "+15143717943"
 analytics_id: "UA-36343347-1"
 
 # Build settings
