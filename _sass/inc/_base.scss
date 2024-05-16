@@ -110,7 +110,7 @@ header{
         content: "";
         display: block;
         position: absolute;
-        background-image: url('/img/background.jpg');
+        background-image: url('/img/sphere.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         -webkit-filter: blur(5px);
@@ -132,6 +132,14 @@ header{
 
 .ready header:before{
     opacity: 0.75;
+}
+
+#attribution {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    padding: 0.2em 0.5em;
 }
 
 #wow{
